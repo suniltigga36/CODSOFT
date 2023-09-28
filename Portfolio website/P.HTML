@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" creator="Sunil tigga" content="width=device-width, initial-scale=1.0">
+     <title>Portfolio Website</title>
+     <link rel="stylesheet" href="P.CSS">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header Section -->
+     <header>
+          <nav>
+          <div class="logo">Sunil Portfolio</div>
+          <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Contact</a>
+        </div>
+     </nav>
+
+     <div class="container">
+          <div class="left">
+               <h2>HI, I'm Sunil Tigga</h2>
+               <h1>Webdevloper</h1>
+               <p>
+                    I like Website design and learning new things. 
+                    I can give your business a new Creative start right away!
+               </p>
+               <br><br>
+               <div>
+                    <a href="#" id="hire">Hire me</a>
+                    <a href="#" id="portfolio">Portfolio</a>
+               </div>
+               </div>
+          <div class="right">
+               <img src="image/mypicture.png" alt="Sunil image" height="500px">
+          </div>
+     </div>
+
+</header>
+
+<!-- About Section -->
+<section id="bio">
+     <div class="leftbio">
+          <img src="image/mypic.jpg" alt="Sunil image">
+          <figcaption>
+               <i><strong>Create your own sunshine</strong></i>
+          </figcaption>
+     </div>
+     <div class="rightbio">
+          <div>
+               <p style="font-size: large;">My Biography</p>
+               <h3 style="font-size: 50px;">I'm Computer Science Engineering Student</h3>
+               <p>As a student, we try to learn new things during academics and I always ready to grab oportunities.
+                    Contact me and we will discuss your projects!
+               </p>
+               <hr>
+          </div>
+
+          <div class="info">
+               <div>
+                    <p><b>Name:</b>Sunil Tigga</p>
+                    <p><b>Email:</b>Suniltigga36@gmail.com</p>
+               </div>
+               <div>
+                    <p><b>Place:</b>Indore, India</p>
+                    <p><b>Mobile.no:</b>7909766310</p>
+               </div>
+          </div>
+               <div id="follow">
+                    <p><b>Follow me on:</b>
+                         <a href="https://www.facebook.com/sunil.tigga.796569/" class="fa fa-facebook"></a>
+                         <a href="https://www.instagram.com/_.sunil._.tigga._/" class="fa fa-instagram"></a>
+                         <a href="https://www.linkedin.com/in/sunil-tigga2003/" class="fa fa-linkedin"></a>
+                         <a href="https://www.youtube.com/@sunil_tigga/" class="fa fa-youtube"></a>
+                         <a href="#" class="fa fa-twitter"></a>
+                    </p>
+             </div>
+
+             <div class="links">
+               <a href="#" id="hire">Hire me</a>
+               <a id="cv" class="btn line-btn-dark btn-icon btn-radius" 
+               href="c:\Users\tigga\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\D9FC0CDB67638D50F411432D0D41D0BA\SUNIL RESUME.pdf" 
+               title="pdf" download="cv">Download CV</a>
+             </div>
+     </div>
+</section>
+
+<!-- Skill Section -->
+<section id="skill">
+
+     <div class="intro">
+          <h3>My Skills</h3>
+          <div class="card">
+               <div class="cardbody">
+                    <h4>Website Design</h4>
+                    <p>Technology used - HTML, CSS & javaScript.</p>
+               </div>
+
+               <div class="cardbody">
+                    <h4>Communication</h4>
+                    <p>Easily interacts with new people.</p>
+               </div>
+
+               <div class="cardbody">
+                    <h4>Editing</h4>
+                    <p>On Photoshop, Inshot, & Canva.</p>
+               </div>
+          </div>
+
+          <div class="card">
+               <div class="cardbody">
+                    <h4>Photography</h4>
+                    <p>In Social media sites.</p>
+               </div>
+
+               <div class="cardbody">
+                    <h4>Speaker</h4>
+                    <p>In Our Community(Church).</p>
+               </div>
+
+               <div class="cardbody">
+                    <h4>Explore</h4>
+                    <p>It is key skill for me to find knowledge.</p>
+               </div>
+          </div>
+
+     </div>
+</section>
+
+<!-- Contact section -->
+
+<center>
+<div class="top">You can contact with me by this form</div>     
+<div class="box">
+<form action="#" method="post">
+     <label class="username">Username</label>
+          <br>
+          <input type="text"
+          placeholder="your name"
+          autocomplete="off"
+          autofocus
+          required
+          minlenght="5"
+          id="username"
+          name="username">
+          <br><br>
+          <label for="Email">Email</label>
+          <br>
+          <input type="email"
+          placeholder="xyz@gmail.com"
+          autocomplete="off"
+          autofocus
+          required
+          minlenght="10"
+          id="email"
+          name="email">
+          <br><br>
+          <label for="password">Password</label>
+          <br>
+          <input type="password"
+          placeholder="your password"
+          autocomplete="off"
+          autofocus
+          required
+          minlenght="6"
+          id="password"
+          name="password">
+          <br><br>
+          <label for="message">Message Box</label>
+          <br>
+          <textarea 
+          name="message"
+          id="message"
+          placeholder="enter you message!"
+          required
+          autocomplete="off"
+          cols="26"
+          rows="8">
+</textarea>
+<br><br>
+
+<!-- here we can see "RESET BUTTON" needs class and also type,
+but "SUBMIT BUTTON" don't need type it'work without type-->
+
+          <button class="reset" type="reset">Reset</button>
+          <button class="submit">Submit</button>
+     </form>
+</div>
+</center>
+
+<!-- Footer Section -->
+
+<footer>
+     <section class="footer">
+     Copyright &copy;2023 all rights reserved | Admin of this Calculator -
+     Sunil tigga.
+     </section>
+</footer>
+
+</body>
+</html>

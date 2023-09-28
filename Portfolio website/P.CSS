@@ -1,0 +1,305 @@
+*{
+     padding: 0%;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+header{
+     width: 100%;
+     height: 100vh;
+     background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+     url('image/background.jpg');
+     background-size: cover;
+     color: white;
+}
+
+nav{
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 60px;
+     font-family: 'poppins',sans-serif;
+}
+
+.logo{
+     font-size: 40px;
+     letter-spacing: 2px;
+     font-weight: bold;
+}
+
+.menu a{
+     text-decoration: none;
+     color: white;
+     font-size: 26px;
+     padding: 22px;
+}
+
+.menu a:hover{
+     color:lightseagreen;
+}
+
+.container{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 0 70px;
+}
+
+.left{
+     flex-basis: 60%;
+}
+
+.right{
+     flex-basis: 40%;
+}
+
+h2{
+     font-family: 'poppins',sans-serif;
+     color: lightgreen; 
+}
+
+h1{
+     font-family:'kalam',cursive;
+     font-size: 50px;
+     font-style: italic;
+}
+
+p{
+     font-family:'poppins',sans-serif;
+     line-height: 2.5rem;
+}
+
+#hire{
+     text-decoration: none;
+     background-color:greenyellow;
+     color: black;
+     font-weight: 600;
+     padding: 1rem 2rem;
+     border-radius: 8px;
+     font-size: 1.5rem;
+     margin: 0 1rem;
+     font-family:'poppins',sans-serif;
+}
+
+#portfolio{
+     text-decoration: none;
+     background-color:white;
+     color: black;
+     font-weight: 600;
+     padding: 1rem 2rem;
+     border-radius: 8px;
+     font-size: 1.5rem;
+     margin: 0 1rem;
+     font-family:'poppins',sans-serif;
+}
+
+#bio{
+     cursor:pointer;
+     padding:150px 70px;
+     width: 100%;
+     height:100%;
+     display:flex;
+     justify-content: space-between;
+     align-items: flex;
+     flex-wrap: wrap;
+     font-family:'poppins',sans-serif;
+}
+
+.leftbio{
+     flex-basis: 40%;
+}
+
+.rightbio{
+     flex-basis: 60%;
+}
+
+.leftbio img{
+     width: 400px;
+     height:600px;
+     border-radius: 8px;
+     filter: saturate(1.5);
+}
+
+.rightbio{
+     padding: 0 40px;
+}
+
+.rightbio p{
+     margin: 15px 0;
+     line-height: 2.5rem;
+}
+
+.info{
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-start;
+     flex-wrap: wrap;
+     text-align: left;
+     font-size: 20px;
+}
+
+#follow p{
+     text-align: center;
+}
+
+#follow a{
+     text-decoration: none;
+     color:blue;
+     font-size: 1.5rem;
+     margin: 5px;
+}
+
+.links{
+     text-align: center;
+     margin-top: 3rem;
+}
+
+#cv{
+     text-decoration: none;
+     background-color:black;
+     color:white;
+     font-weight: 600;
+     padding: 1rem 2rem;
+     border-radius: 8px;
+     font-size: 1.5rem;
+     margin: 0 1rem;
+}
+
+#cv:hover{
+     border:black 2px solid;
+}
+
+#skill{
+     padding: 30px 70px;
+     width: 100%;
+     height: 100%;
+     background: wheat;
+     text-align: center;
+}
+
+.card{
+     width:100%;
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 3rem;
+     padding-right: 80px;
+}
+
+.cardbody{
+     flex-basis: 30%;
+     background: white;
+     padding: 1rem;
+     border-radius: 8px;
+}
+
+.cardbody:hover{
+     border: black 2px solid;
+}
+
+.cardbody h3{
+     font-size: 1.5rem;
+     margin: 0.5rem 0;
+}
+
+.intro h3{
+     font-size: 50px;
+     font-family:'kalam',cursive;
+}
+
+.intro h4{
+     font-size: 30px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top{
+     padding: 50px;
+     font-size:40px;
+     font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+     font-weight: 500;
+}
+
+/* form edit */
+
+.box{
+     width: 400px;
+     background-color:black;
+     border:3px solid gold;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+ 
+label{
+     color:white;
+     font-family:'kalam',cursive;
+     font-size: 20px;
+}
+ 
+form{
+   position: relative;
+   border: 5px;
+   padding: 20px;
+   margin: 20px;
+}
+ 
+form input{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size: large;
+     padding: 10px;
+}
+
+textarea{
+     font-family:monospace;
+     font-weight: bolder;
+     font-size: large;
+}
+
+#message{
+     padding:5px 5px;
+     font-size: 20px;
+}
+ 
+button{
+     cursor: pointer;
+     font-size: 20px;
+     margin: 5px 30px 2px;
+     border-radius: 10px 100px 120px 100px;
+     padding: 7px;
+}
+ 
+/* here we can see the . is use for call by the help of class function */
+.reset{
+     background-color:red;
+     font-style: oblique;
+     font-weight: 600;
+}
+ 
+.submit{
+     background-color: chartreuse;
+     font-style:oblique;
+     font-weight: 600;
+}
+ 
+.reset:hover{
+     border-color: white;
+}
+ 
+.submit:hover{
+     border-color: white;
+}
+
+.footer{
+     color: white;
+     background-color:black;
+     padding:4px 6px 4px 0;
+     margin-top: 56px;
+}
